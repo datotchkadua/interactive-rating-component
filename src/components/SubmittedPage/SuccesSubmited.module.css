@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  justify-content: center;
+  padding: 32px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  max-width: 450px;
+  border-radius: 30px;
+}
+
+.rate_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px auto;
+  height: 35px;
+  width: 190px;
+  background: #262e38;
+  color: #fc7614;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.header {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+
+.story_text {
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 15px;
+  color: #969fad;
+  max-width: 95%;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .content {
+    padding: 24px;
+  }
+  .rate_info {
+    margin: 22px auto;
+  }
+
+  .header {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 16px;
+  }
+
+  .story_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

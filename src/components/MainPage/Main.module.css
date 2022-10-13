@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.content {
+  justify-content: center;
+  padding: 32px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  max-width: 450px;
+  border-radius: 30px;
+}
+
+.circle_star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262e38;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+.header {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.story_text {
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #969fad;
+  max-width: 95%;
+}
+
+.rate_numbers {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  margin-top: 24px;
+}
+
+.circle_numbers_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262e38;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  margin-right: 21px;
+  margin-bottom: 10px;
+  /*  */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7c8798;
+}
+
+.active {
+  background-color: #7c8798 !important;
+  color: #ffffff !important;
+}
+
+.circle_numbers_div:hover {
+  background-color: #fc7614;
+  color: #ffffff;
+}
+
+.submit_btn {
+  width: 90%;
+  background-color: #fc7614;
+  border-radius: 20px;
+  height: 45px;
+  cursor: pointer;
+  margin-top: 22px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.submit_btn:hover {
+  background-color: #ffffff;
+  color: #fc7614;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .content {
+    padding: 24px;
+  }
+  .circle_star {
+    width: 40px;
+    height: 40px;
+  }
+  .header {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 16px;
+  }
+
+  .story_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .circle_numbers_div {
+    width: 42px;
+    height: 42px;
+    margin-right: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .submit_btn {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .circle_star {
+    width: 35px;
+    height: 35px;
+  }
+  .rate_numbers {
+    justify-content: space-between;
+  }
+  .circle_numbers_div {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+  }
+}
