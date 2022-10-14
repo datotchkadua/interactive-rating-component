@@ -10,10 +10,10 @@ This is a  Interactive rating component challenge from Frontend Mentor. In this 
 ### The challenge
 Users are able to:
 
-View the optimal layout for the app depending on the device's screen size
-See hover states for all interactive elements on the page
-Select and submit a number rating
-See the "Thank you" card state after submitting a rating
+View the optimal layout for the app depending on the device's screen size.
+See hover states for all interactive elements on the page.
+Select and submit a number rating.
+See the "Thank you" card state after submitting a rating.
 
 ### Built With
 HTML5, CSS3, React.js(React-router6,useState-hook)
